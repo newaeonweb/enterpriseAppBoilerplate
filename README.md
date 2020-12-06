@@ -1,18 +1,21 @@
 # EnterpriseApp
 
+It is a simple baseline code to start enterprise big applications with a solid structure.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Prepare the ui library `npm run ui:build`
+To see the example app run `npm run start:example`. Navigate to `http://localhost:3000/`.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+We recommend the use of: [Nx Console](https://nx.dev/latest/angular/cli/console) if you use vscode you can find [here](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console).
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+You are free to prepare your own build, and we recommend the use of: [buildkite](https://buildkite.com/)
 
 ## Running unit tests
 
@@ -24,4 +27,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+For this moment we only have one component in our library so this boilerplate is a working in progress...More news coming soon!
