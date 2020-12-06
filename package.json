@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "ui:watch": "ng build ui-elements --prod --watch",
-    "ui:build": "ng build ui-elements --prod"
+    "ui:build": "ng build ui-elements --prod",
+    "start:example": "ng serve example-app -o --port 3000",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
