@@ -68,6 +68,7 @@
               "projects/example-app/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "projects/example-app/src/styles.scss"
             ],
             "scripts": []
@@ -131,6 +132,7 @@
               "projects/example-app/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "projects/example-app/src/styles.scss"
             ],
             "scripts": []
@@ -164,5 +166,5 @@
       }
     }
   },
-  "defaultProject": "ui-elements"
+  "defaultProject": "example-app"
 }

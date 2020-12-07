@@ -21,6 +21,7 @@
     ],
     "paths": {
       "ui-elements": [
+        "projects/ui-elements/src/public-api",
         "dist/ui-elements/ui-elements",
         "dist/ui-elements"
       ]
