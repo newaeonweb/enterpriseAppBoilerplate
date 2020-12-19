@@ -21,6 +21,8 @@
     ],
     "paths": {
       "ui-elements": [
+        "projects/ui-elements/ui-elements",
+        "projects/ui-elements",
         "dist/ui-elements/ui-elements",
         "dist/ui-elements"
       ]
