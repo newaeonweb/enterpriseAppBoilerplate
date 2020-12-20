@@ -2,9 +2,11 @@
 
 ![CI](https://github.com/newaeonweb/enterpriseAppBoilerplate/workflows/CI/badge.svg)
 
-It is a simple baseline code to start enterprise big applications with a solid structure.
+It is a simple baseline project built with _workspace_ concept to start an enterprise Angular applications with a solid structure.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+Including the new ESLINT [recommended](https://github.com/angular-eslint/angular-eslint#migrating-from-codelyzer-and-tslint) by the Angular Team to replace the old TSLINT on Angular projects.
+
+> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
 ## Project Structure
 
@@ -42,7 +44,7 @@ The most important feature is the ui-elements project library, where you must pl
 | | |____test.ts
 | |____tsconfig.app.json
 | |____tsconfig.spec.json
-| |____tslint.json
+| |____.eslintrc.json
 |____ui-elements
 | |____karma.conf.js
 | |____ng-package.json
@@ -61,7 +63,7 @@ The most important feature is the ui-elements project library, where you must pl
 | |____tsconfig.lib.json
 | |____tsconfig.lib.prod.json
 | |____tsconfig.spec.json
-| |____tslint.json
+| |____.eslintrc.json
 ```
 
 ## Development server
@@ -75,7 +77,7 @@ We recommend the use of: [Nx Console](https://nx.dev/latest/angular/cli/console)
 
 ## Build
 
-You are free to prepare your own build, and we recommend the use of: [buildkite](https://buildkite.com/)
+The project uses Github Actions Workflow to build and deploy the application.
 
 ## Running unit tests
 

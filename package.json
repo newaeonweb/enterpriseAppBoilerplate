@@ -1,6 +1,6 @@
 {
   "name": "enterprise-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "ui:watch": "ng build ui-elements --prod --watch",
     "ui:build": "ng build ui-elements --prod",
-    "start:example": "ng serve example-app -o --port 3000",
+    "start:example": "ng serve example-app --port 3000",
     "e2e": "ng e2e"
   },
   "private": true,
