@@ -28,14 +28,14 @@ jobs:
       #   run: npm run e2e
       - name: Build Library
         run: npm run ui:build
-      - name: Build
-        run: npm run build
+      - name: Build Example App
+        run: npm run build:example
       - name: Archive build
         if: success()
         uses: actions/upload-artifact@v1
         with:
           name: deploy_dist
-          path: dist
+          path: dist/example-app
       - name: Archive code coverage result
         if: success()
         uses: actions/upload-artifact@v1
