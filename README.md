@@ -1,6 +1,6 @@
 # EnterpriseApp
 
-[![build status](https://github.com/newaeonweb/enterpriseAppBoilerplate/workflows/Build/badge.svg)](https://github.com/newaeonweb/enterpriseAppBoilerplate/actions)
+![CI](https://github.com/newaeonweb/enterpriseAppBoilerplate/workflows/CI/badge.svg)
 
 It is a simple baseline code to start enterprise big applications with a solid structure.
 
