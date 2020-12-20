@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --sourceMap=false",
+    "build": "ng build --prod",
     "test": "ng test --watch=false --browsers=ChromeHeadlessCustom --code-coverage --source-map true",
     "lint": "ng lint",
     "ui:watch": "ng build ui-elements --prod --watch",
