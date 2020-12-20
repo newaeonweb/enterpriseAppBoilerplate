@@ -24,7 +24,35 @@ jobs:
         run: npm run lint
       - name: Test
         run: npm test
-      - name: Build
-        run: npm run build -- --prod
       # - name: E2E
       #   run: npm run e2e
+      - name: Build
+        run: npm run build
+      - name: Archive build
+        if: success()
+        uses: actions/upload-artifact@v1
+        with:
+          name: deploy_dist
+          path: dist
+      - name: Archive code coverage result
+        if: success()
+        uses: actions/upload-artifact@v1
+        with:
+          name: deploy_coverage
+          path: coverage
+  deploy:
+    runs-on: ubuntu-18.04
+    needs: build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Download build
+        uses: actions/download-artifact@v1
+        with:
+          name: deploy_dist
+      - name: Deploy to GitHub Pages
+        uses: newaeonweb/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: deploy_dist/enterpriseAppBoilerplate

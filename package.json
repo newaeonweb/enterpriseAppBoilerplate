@@ -1,10 +1,10 @@
 {
   "name": "enterprise-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --sourceMap=false",
     "test": "ng test --watch=false --browsers=ChromeHeadlessCustom --code-coverage --source-map true",
     "lint": "ng lint",
     "ui:watch": "ng build ui-elements --prod --watch",
