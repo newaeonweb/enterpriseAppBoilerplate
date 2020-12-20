@@ -1,5 +1,7 @@
 # EnterpriseApp
 
+[![build status](https://github.com/newaeonweb/enterpriseAppBoilerplate/workflows/Build/badge.svg)](https://github.com/newaeonweb/enterpriseAppBoilerplate/actions)
+
 It is a simple baseline code to start enterprise big applications with a solid structure.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
