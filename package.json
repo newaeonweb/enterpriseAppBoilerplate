@@ -10,6 +10,7 @@
     "ui:watch": "ng build ui-elements --prod --watch",
     "ui:build": "ng build ui-elements --prod",
     "build:example": "ng build --prod example-app",
+    "build:ghpages": "ng build --prod example-app --base-href=https://newaeonweb.github.io/enterpriseAppBoilerplate",
     "start:example": "ng serve example-app --port 3000",
     "e2e": "ng e2e"
   },
