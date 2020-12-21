@@ -8,6 +8,19 @@ Including the new ESLINT [recommended](https://github.com/angular-eslint/angular
 
 > This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
+### Highlights
+
+- Using Angular **workspace strategy**.
+- **Eslint** ready and running (Tslint will be removed from Angular apps)
+- Unit tests running with **puppeteer** and **chrome headless browser**.
+- **Angular Library** built with Angular Material running on local project.
+- Deploy to **gh-pages** using Github Actions.
+- Include **.prettierrc** with some best practices rules.
+
+
+
+DEMO APP: Runing on [gh-pages](https://newaeonweb.github.io/enterpriseAppBoilerplate/).
+
 ## Project Structure
 
 The most important feature is the ui-elements project library, where you must place all the components for your ui, this means that the EnterpriseAppBoilerplate is a UI framework agnostic, so you can use any ui.
